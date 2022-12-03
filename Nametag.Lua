@@ -1,11 +1,11 @@
--- Vape Private leaked nametag lmfao
+
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local yes = Players.LocalPlayer.Name
 local ChatTag = {}
 ChatTag[yes] =
 	{
-        TagText = "VAPE PRIVATE",
+        TagText = "MOON USER",
         TagColor = Color3.new(0.7, 0, 1),
     }
 
