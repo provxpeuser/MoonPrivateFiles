@@ -104,12 +104,7 @@ end
 downloadassets("bedwars/sounds/footstep")
 
 for i = 1, 5  do
-    cachesize("bedwars/ui/death/"..tostring(i)..".png")
 end
-cachesize("bedwars/ui/widgets.png")
-cachesize("bedwars/ui/icons.png")
-cachesize("bedwars/ui/container/generic_54.png")
-
 local Flamework = require(game:GetService("ReplicatedStorage")["rbxts_include"]["node_modules"]["@flamework"].core.out).Flamework
 local newupdate = game.Players.LocalPlayer.PlayerScripts.TS:FindFirstChild("ui") and true or false
 repeat wait() until Flamework.isInitialized
